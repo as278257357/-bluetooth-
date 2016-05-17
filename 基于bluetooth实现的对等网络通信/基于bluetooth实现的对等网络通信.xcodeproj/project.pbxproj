@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D25A40101CE9DE390024ADE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D25A400F1CE9DE390024ADE2 /* main.m */; };
+		D25A40131CE9DE390024ADE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D25A40121CE9DE390024ADE2 /* AppDelegate.m */; };
+		D25A40161CE9DE390024ADE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D25A40151CE9DE390024ADE2 /* ViewController.m */; };
+		D25A40191CE9DE390024ADE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25A40171CE9DE390024ADE2 /* Main.storyboard */; };
+		D25A401B1CE9DE390024ADE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D25A401A1CE9DE390024ADE2 /* Assets.xcassets */; };
+		D25A401E1CE9DE3A0024ADE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25A401C1CE9DE3A0024ADE2 /* LaunchScreen.storyboard */; };
+		D25A40291CE9DE3A0024ADE2 /* __bluetooth_________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D25A40281CE9DE3A0024ADE2 /* __bluetooth_________Tests.m */; };
+		D25A40341CE9DE3A0024ADE2 /* __bluetooth_________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D25A40331CE9DE3A0024ADE2 /* __bluetooth_________UITests.m */; };
+		D25A40421CE9E03A0024ADE2 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25A40411CE9E03A0024ADE2 /* MultipeerConnectivity.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D25A40251CE9DE3A0024ADE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D25A40031CE9DE390024ADE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D25A400A1CE9DE390024ADE2;
+			remoteInfo = "基于bluetooth实现的对等网络通信";
+		};
+		D25A40301CE9DE3A0024ADE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D25A40031CE9DE390024ADE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D25A400A1CE9DE390024ADE2;
+			remoteInfo = "基于bluetooth实现的对等网络通信";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D25A400B1CE9DE390024ADE2 /* 基于bluetooth实现的对等网络通信.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "基于bluetooth实现的对等网络通信.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25A400F1CE9DE390024ADE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D25A40111CE9DE390024ADE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D25A40121CE9DE390024ADE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D25A40141CE9DE390024ADE2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D25A40151CE9DE390024ADE2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D25A40181CE9DE390024ADE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D25A401A1CE9DE390024ADE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D25A401D1CE9DE3A0024ADE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D25A401F1CE9DE3A0024ADE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D25A40241CE9DE3A0024ADE2 /* 基于bluetooth实现的对等网络通信Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "基于bluetooth实现的对等网络通信Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25A40281CE9DE3A0024ADE2 /* __bluetooth_________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__bluetooth_________Tests.m"; sourceTree = "<group>"; };
+		D25A402A1CE9DE3A0024ADE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D25A402F1CE9DE3A0024ADE2 /* 基于bluetooth实现的对等网络通信UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "基于bluetooth实现的对等网络通信UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25A40331CE9DE3A0024ADE2 /* __bluetooth_________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__bluetooth_________UITests.m"; sourceTree = "<group>"; };
+		D25A40351CE9DE3A0024ADE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D25A40411CE9E03A0024ADE2 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D25A40081CE9DE390024ADE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25A40421CE9E03A0024ADE2 /* MultipeerConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D25A40211CE9DE3A0024ADE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D25A402C1CE9DE3A0024ADE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D25A40021CE9DE390024ADE2 = {
+			isa = PBXGroup;
+			children = (
+				D25A40411CE9E03A0024ADE2 /* MultipeerConnectivity.framework */,
+				D25A400D1CE9DE390024ADE2 /* 基于bluetooth实现的对等网络通信 */,
+				D25A40271CE9DE3A0024ADE2 /* 基于bluetooth实现的对等网络通信Tests */,
+				D25A40321CE9DE3A0024ADE2 /* 基于bluetooth实现的对等网络通信UITests */,
+				D25A400C1CE9DE390024ADE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D25A400C1CE9DE390024ADE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D25A400B1CE9DE390024ADE2 /* 基于bluetooth实现的对等网络通信.app */,
+				D25A40241CE9DE3A0024ADE2 /* 基于bluetooth实现的对等网络通信Tests.xctest */,
+				D25A402F1CE9DE3A0024ADE2 /* 基于bluetooth实现的对等网络通信UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D25A400D1CE9DE390024ADE2 /* 基于bluetooth实现的对等网络通信 */ = {
+			isa = PBXGroup;
+			children = (
+				D25A40111CE9DE390024ADE2 /* AppDelegate.h */,
+				D25A40121CE9DE390024ADE2 /* AppDelegate.m */,
+				D25A40141CE9DE390024ADE2 /* ViewController.h */,
+				D25A40151CE9DE390024ADE2 /* ViewController.m */,
+				D25A40171CE9DE390024ADE2 /* Main.storyboard */,
+				D25A401A1CE9DE390024ADE2 /* Assets.xcassets */,
+				D25A401C1CE9DE3A0024ADE2 /* LaunchScreen.storyboard */,
+				D25A401F1CE9DE3A0024ADE2 /* Info.plist */,
+				D25A400E1CE9DE390024ADE2 /* Supporting Files */,
+			);
+			path = "基于bluetooth实现的对等网络通信";
+			sourceTree = "<group>";
+		};
+		D25A400E1CE9DE390024ADE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D25A400F1CE9DE390024ADE2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D25A40271CE9DE3A0024ADE2 /* 基于bluetooth实现的对等网络通信Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D25A40281CE9DE3A0024ADE2 /* __bluetooth_________Tests.m */,
+				D25A402A1CE9DE3A0024ADE2 /* Info.plist */,
+			);
+			path = "基于bluetooth实现的对等网络通信Tests";
+			sourceTree = "<group>";
+		};
+		D25A40321CE9DE3A0024ADE2 /* 基于bluetooth实现的对等网络通信UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D25A40331CE9DE3A0024ADE2 /* __bluetooth_________UITests.m */,
+				D25A40351CE9DE3A0024ADE2 /* Info.plist */,
+			);
+			path = "基于bluetooth实现的对等网络通信UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D25A400A1CE9DE390024ADE2 /* 基于bluetooth实现的对等网络通信 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D25A40381CE9DE3A0024ADE2 /* Build configuration list for PBXNativeTarget "基于bluetooth实现的对等网络通信" */;
+			buildPhases = (
+				D25A40071CE9DE390024ADE2 /* Sources */,
+				D25A40081CE9DE390024ADE2 /* Frameworks */,
+				D25A40091CE9DE390024ADE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "基于bluetooth实现的对等网络通信";
+			productName = "基于bluetooth实现的对等网络通信";
+			productReference = D25A400B1CE9DE390024ADE2 /* 基于bluetooth实现的对等网络通信.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D25A40231CE9DE3A0024ADE2 /* 基于bluetooth实现的对等网络通信Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D25A403B1CE9DE3A0024ADE2 /* Build configuration list for PBXNativeTarget "基于bluetooth实现的对等网络通信Tests" */;
+			buildPhases = (
+				D25A40201CE9DE3A0024ADE2 /* Sources */,
+				D25A40211CE9DE3A0024ADE2 /* Frameworks */,
+				D25A40221CE9DE3A0024ADE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D25A40261CE9DE3A0024ADE2 /* PBXTargetDependency */,
+			);
+			name = "基于bluetooth实现的对等网络通信Tests";
+			productName = "基于bluetooth实现的对等网络通信Tests";
+			productReference = D25A40241CE9DE3A0024ADE2 /* 基于bluetooth实现的对等网络通信Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D25A402E1CE9DE3A0024ADE2 /* 基于bluetooth实现的对等网络通信UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D25A403E1CE9DE3A0024ADE2 /* Build configuration list for PBXNativeTarget "基于bluetooth实现的对等网络通信UITests" */;
+			buildPhases = (
+				D25A402B1CE9DE3A0024ADE2 /* Sources */,
+				D25A402C1CE9DE3A0024ADE2 /* Frameworks */,
+				D25A402D1CE9DE3A0024ADE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D25A40311CE9DE3A0024ADE2 /* PBXTargetDependency */,
+			);
+			name = "基于bluetooth实现的对等网络通信UITests";
+			productName = "基于bluetooth实现的对等网络通信UITests";
+			productReference = D25A402F1CE9DE3A0024ADE2 /* 基于bluetooth实现的对等网络通信UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D25A40031CE9DE390024ADE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = EaseMob;
+				TargetAttributes = {
+					D25A400A1CE9DE390024ADE2 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 499WYUV8Q2;
+					};
+					D25A40231CE9DE3A0024ADE2 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D25A400A1CE9DE390024ADE2;
+					};
+					D25A402E1CE9DE3A0024ADE2 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D25A400A1CE9DE390024ADE2;
+					};
+				};
+			};
+			buildConfigurationList = D25A40061CE9DE390024ADE2 /* Build configuration list for PBXProject "基于bluetooth实现的对等网络通信" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D25A40021CE9DE390024ADE2;
+			productRefGroup = D25A400C1CE9DE390024ADE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D25A400A1CE9DE390024ADE2 /* 基于bluetooth实现的对等网络通信 */,
+				D25A40231CE9DE3A0024ADE2 /* 基于bluetooth实现的对等网络通信Tests */,
+				D25A402E1CE9DE3A0024ADE2 /* 基于bluetooth实现的对等网络通信UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D25A40091CE9DE390024ADE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25A401E1CE9DE3A0024ADE2 /* LaunchScreen.storyboard in Resources */,
+				D25A401B1CE9DE390024ADE2 /* Assets.xcassets in Resources */,
+				D25A40191CE9DE390024ADE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D25A40221CE9DE3A0024ADE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D25A402D1CE9DE3A0024ADE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D25A40071CE9DE390024ADE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25A40161CE9DE390024ADE2 /* ViewController.m in Sources */,
+				D25A40131CE9DE390024ADE2 /* AppDelegate.m in Sources */,
+				D25A40101CE9DE390024ADE2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D25A40201CE9DE3A0024ADE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25A40291CE9DE3A0024ADE2 /* __bluetooth_________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D25A402B1CE9DE3A0024ADE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25A40341CE9DE3A0024ADE2 /* __bluetooth_________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D25A40261CE9DE3A0024ADE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D25A400A1CE9DE390024ADE2 /* 基于bluetooth实现的对等网络通信 */;
+			targetProxy = D25A40251CE9DE3A0024ADE2 /* PBXContainerItemProxy */;
+		};
+		D25A40311CE9DE3A0024ADE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D25A400A1CE9DE390024ADE2 /* 基于bluetooth实现的对等网络通信 */;
+			targetProxy = D25A40301CE9DE3A0024ADE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D25A40171CE9DE390024ADE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D25A40181CE9DE390024ADE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D25A401C1CE9DE3A0024ADE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D25A401D1CE9DE3A0024ADE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D25A40361CE9DE3A0024ADE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D25A40371CE9DE3A0024ADE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D25A40391CE9DE3A0024ADE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "基于bluetooth实现的对等网络通信/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZYB.--bluetooth---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D25A403A1CE9DE3A0024ADE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "基于bluetooth实现的对等网络通信/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZYB.--bluetooth---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D25A403C1CE9DE3A0024ADE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "基于bluetooth实现的对等网络通信Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZYB.--bluetooth---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/基于bluetooth实现的对等网络通信.app/基于bluetooth实现的对等网络通信";
+			};
+			name = Debug;
+		};
+		D25A403D1CE9DE3A0024ADE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "基于bluetooth实现的对等网络通信Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZYB.--bluetooth---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/基于bluetooth实现的对等网络通信.app/基于bluetooth实现的对等网络通信";
+			};
+			name = Release;
+		};
+		D25A403F1CE9DE3A0024ADE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "基于bluetooth实现的对等网络通信UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZYB.--bluetooth---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "基于bluetooth实现的对等网络通信";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D25A40401CE9DE3A0024ADE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "基于bluetooth实现的对等网络通信UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZYB.--bluetooth---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "基于bluetooth实现的对等网络通信";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D25A40061CE9DE390024ADE2 /* Build configuration list for PBXProject "基于bluetooth实现的对等网络通信" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25A40361CE9DE3A0024ADE2 /* Debug */,
+				D25A40371CE9DE3A0024ADE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D25A40381CE9DE3A0024ADE2 /* Build configuration list for PBXNativeTarget "基于bluetooth实现的对等网络通信" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25A40391CE9DE3A0024ADE2 /* Debug */,
+				D25A403A1CE9DE3A0024ADE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D25A403B1CE9DE3A0024ADE2 /* Build configuration list for PBXNativeTarget "基于bluetooth实现的对等网络通信Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25A403C1CE9DE3A0024ADE2 /* Debug */,
+				D25A403D1CE9DE3A0024ADE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D25A403E1CE9DE3A0024ADE2 /* Build configuration list for PBXNativeTarget "基于bluetooth实现的对等网络通信UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25A403F1CE9DE3A0024ADE2 /* Debug */,
+				D25A40401CE9DE3A0024ADE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D25A40031CE9DE390024ADE2 /* Project object */;
+}
