@@ -38,19 +38,22 @@
     [self.view addSubview:_lblPlayer1];
     
     [self.view addSubview:_btnConnect];
+    
+    [self createSession];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)createSession {
     //Creat session related functionality
-    self.peerID = [[MCPeerID alloc]initWithDisplayName:@"easemob"];
-    self.session = [[MCSession alloc]initWithPeer:[[MCPeerID alloc]initWithDisplayName:@"easemob"] securityIdentity:nil encryptionPreference:MCEncryptionRequired];
+    self.peerID = [[MCPeerID alloc]initWithDisplayName:@"Easemomb_Advertiser"];
+    self.session = [[MCSession alloc]initWithPeer:[[MCPeerID alloc]initWithDisplayName:@"Easemomb_Advertiser"] securityIdentity:nil encryptionPreference:MCEncryptionRequired];
     self.session.delegate = self;
     _advertiserAssistant = [[MCAdvertiserAssistant alloc]initWithServiceType:@"easemob-chattest" discoveryInfo:nil session:_session];
     _advertiserAssistant.delegate = self;
     //Start the assistant to begin advertising your peer availability
     [_advertiserAssistant start];
 }
+
 //搜索展示附近的设备
 - (void)connect:(id)sender {
     MCBrowserViewController *browserViewController = [[MCBrowserViewController alloc]initWithServiceType:self.serverType session:self.session];
